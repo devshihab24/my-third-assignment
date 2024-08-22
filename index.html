@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="light" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M Archetech</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              'btn-cl': 'rgb(171, 239, 95)',
+            }
+          }
+        }
+      }
+    </script>
 </head>
-<body>
-    <h1>hello world</h1>
+<body class="w-full mx-auto">
+    <!-- header section -->
+    <header>
+        <!-- Navigation bar -->
+         <section class="my-7 flex justify-between">
+            <a class="btn btn-ghost font-bold text-2xl"><i class="text-base -rotate-45 bg-btn-cl w-6 rounded-full px-0 fa-solid fa-arrow-right"></i>Rinterio</a>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                  <li class="font-bold text-base"><a>Home</a></li>
+                  <li class="text-base font-semibold text-gray-400"><a>Services</a></li>
+                  <li class="text-base font-semibold text-gray-400"><a>Portfolio</a></li>
+                  <li class="text-base font-semibold text-gray-400"><a>Blogs</a></li>
+                  <li class="text-base font-semibold text-gray-400"><a>Contact us</a></li>
+                </ul>
+              </div>
+
+              <div class="hidden md:inline navbar-end">
+                <i class="mx-7 mr-7 text-center pt-2 w-8 h-8 bg-gray-100 rounded-full fa-solid fa-magnifying-glass"></i>
+                <i class="mr-7 text-center pt-2 w-8 h-8 bg-gray-100 rounded-full fa-solid fa-cart-shopping"></i>
+                <a class="btn btn-accent rounded-3xl bg-btn-cl border-none font-bold">Book Consult<i class="text-base -rotate-45 bg-black font-semibold text-white w-6 rounded-full px-0 fa-solid fa-arrow-right"></i></a>
+              </div>
+         </section>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
