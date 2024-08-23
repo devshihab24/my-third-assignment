@@ -1,11 +1,13 @@
-/* body{
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-    border: 2px soldi red;
+
+/* manrope-<uniquifier> {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 } */
-/* header{
-    border: 2px solid red;
+
+*{
+    font-family: "Manrope", sans-serif;
 }
-#right-bar{
-    border: 2px solid black;
-    padding-right: 0px;
-} */
